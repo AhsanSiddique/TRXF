@@ -164,7 +164,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TravelRecordApp\TravelRecordApp.csproj">
-      <Project>{5cc83a16-18d8-4239-93fc-63501c99f231}</Project>
+      <Project>{1a7c9404-2c72-4171-8c10-e485098c411c}</Project>
       <Name>TravelRecordApp</Name>
     </ProjectReference>
   </ItemGroup>
