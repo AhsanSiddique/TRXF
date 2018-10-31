@@ -162,11 +162,11 @@
       <Version>3.3.0.912540</Version>
     </PackageReference>
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\TravelRecordApp\TravelRecord.Core.csproj">
-      <Project>{8328C2C7-FD8C-4287-939C-6C3B874DB797}</Project>
-      <Name>TravelRecord.Core</Name>
+    <ProjectReference Include="..\TravelRecordApp\TravelRecordApp.csproj">
+      <Project>{5cc83a16-18d8-4239-93fc-63501c99f231}</Project>
+      <Name>TravelRecordApp</Name>
     </ProjectReference>
   </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
